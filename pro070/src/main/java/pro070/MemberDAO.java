@@ -24,7 +24,7 @@ public class MemberDAO {
 		
 		try {
 			Class.forName(driver);
-			System.out.println("Oracle 드라이버 로딩 성공");
+			System.out.println("Oracle 드라이버 로딩 성공asdasd");
 			con = DriverManager.getConnection(url, user, pwd);
 			System.out.println("Connection 생성 성공");
 			stmt = con.createStatement();
